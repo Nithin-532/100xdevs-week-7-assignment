@@ -1,0 +1,88 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  background-image: url('https://images.unsplash.com/photo-1562257443-f7a85953d852?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D8');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  background-position: center;
+}
+
+body {
+  margin: 0;
+}
+
+.input-box {
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.2);
+  width: 450px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgba(255, 207, 118, 0.4);
+  opacity: 1;
+  border-radius: 16px;
+  color: black;
+}
+
+.input-box input {
+  width: 350px;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+.input-box button {
+  background-color: rgb(30, 30, 223);
+  padding: 10px 16px;
+  border-radius: 8px;
+  color: white;
+}
+
+.wishCard {
+  padding: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wishCard:nth-child(even) {
+  color: #0b028a;
+}
+
+.wishCard:nth-child(odd) {
+  color: #025f19;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 24px;
+  border-radius: 8px;
+  flex-direction: column;
+  width: 200px;
+  text-wrap: wrap;
+  color: black;
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+h2 {
+  margin: 0;
+}
